@@ -24,9 +24,11 @@
        </div>
      </header>
      <form  action="index.html" method="post">
-     <div class="form-info buttom-line form-2">
-       <h2>Contact Information</h2>
+     <div class="form-info buttom-line">
        <div class="respo">
+         <fieldset>
+           <legend>Contact Information</legend>
+
        <label class="label" for="name">Full Name</label><br>
        <input type="text" id="name" name="user_name" placeholder="Required" required ><br>
 
@@ -294,10 +296,13 @@
 
        <label class="label" for="zipcode">Zip Code</label><br>
        <input  type="text" id="zipcode" name="user_zipcode"><br>
+</fieldset>
 </div>
      </div>
+
      <div class="form-info">
-       <h2>Newsletter</h2>
+       <fieldset>
+       <legend>Newsletter</legend>
        <label >Select the newsletters you would like to recieve</label><br>
        <input type="checkbox" id="htmlnews" name="user_news" checked>
        <label for="htmlnews">HTML News</label><br>
@@ -310,7 +315,7 @@
      </div>
        <label>Other topics you'd like to hear about</label>
        <textarea name="name" rows="5" cols="20"></textarea>
-
+</fieldset>
        <button type="submit" name="button" class="sign-up">Sign Up</button>
 
      </div>

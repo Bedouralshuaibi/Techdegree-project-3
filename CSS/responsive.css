@@ -1,15 +1,3 @@
-@media screen and (min-width:320px)
-{
-  .top-header
-  {
-    height: 70px;
-    font-size: .6em;
-    margin: 20px 0;
-    padding: 10px 0;
-    text-align: center;
-  }
-
-}
 @media screen and (min-width:768px)
 {
   .top-brife,.form-info,.buttom-line

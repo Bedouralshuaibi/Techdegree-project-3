@@ -1,6 +1,6 @@
-/* =================================
+/* ---------------------------------
   Base Element Styles
-==================================== */
+------------------------------------- */
 *
 {
   box-sizing:border-box;
@@ -23,9 +23,7 @@ footer
 }
 
 
-/* =================================
-  Base Layout Styles
-==================================== */
+
 /* ---- Layout Containers ---- */
 .Container
 {
@@ -145,7 +143,20 @@ input[type="radio"]
   width: 7%;
  cursor: pointer;
 }
+fieldset {
 
+    margin:  0;
+    border: none;
+    padding: 0;
+}
+legend {
+font-size: 1.5em;
+font-weight: bold;
+color: #1f3040;
+padding: 0;
+margin: 0;
+
+}
 textarea
 {
   width: 100%;
